@@ -141,7 +141,7 @@
         </ol>
         </nav>
     <div class="row">
-        <div class="col-3">
+        <div class="col-md-3 d-none d-md-block">
             <ul class="list-group list-group-flush rounded">
                 <a href="#" class="list-group-item list-group-item-action text-success">Profile</a>
                 <a href="#" class="list-group-item list-group-item-action text-success">Shipping</a>
@@ -150,7 +150,7 @@
                 <a href="#" class="list-group-item list-group-item-action text-success">Gifts</a>
               </ul>
         </div>
-        <div class="col-9 bg-white">
+        <div class="col-12 col-md-9 bg-white">
             <h3 class="font-weight-light text-primary border-bottom py-3">My Profile</h3>
             <form>
                 <div class="form-group row d-flex">
@@ -178,6 +178,7 @@
                     </div>
                 </div>
             </form>
+            <a href="#" class="text-decoration-none text-danger">Change my personal information</a>
             <h3 class="font-weight-light text-primary border-bottom border-top py-3">Billing and Shipping</h3>
                 <form class="form-inline">
                     <div class="form-group mb-2">
@@ -185,63 +186,63 @@
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Country">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="Armenia">
+                      <label for="inputText2" class="sr-only">Armenia</label>
+                      <input type="text" class="form-control border-0" id="inputText2" placeholder="Armenia">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
                   <form class="form-inline">
                     <div class="form-group mb-2">
-                      <label for="staticEmail2" class="sr-only">Country</label>
+                      <label for="staticEmail2" class="sr-only">State</label>
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="State/Province">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="Shirak">
+                      <label for="inputText3" class="sr-only">State</label>
+                      <input type="text" class="form-control border-0" id="inputText3" placeholder="Shirak">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
                   <form class="form-inline">
                     <div class="form-group mb-2">
-                      <label for="staticEmail2" class="sr-only">Country</label>
+                      <label for="staticEmail2" class="sr-only">City</label>
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="City">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="Gyumri">
+                      <label for="inputText4" class="sr-only">City</label>
+                      <input type="text" class="form-control border-0" id="inputText4" placeholder="Gyumri">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
                   <form class="form-inline">
                     <div class="form-group mb-2">
-                      <label for="staticEmail2" class="sr-only">Country</label>
+                      <label for="staticEmail2" class="sr-only">Street</label>
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Street">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="Shirakatsi">
+                      <label for="inputText5" class="sr-only">Street</label>
+                      <input type="text" class="form-control border-0" id="inputText5" placeholder="Shirakatsi">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
                   <form class="form-inline">
                     <div class="form-group mb-2">
-                      <label for="staticEmail2" class="sr-only">Country</label>
+                      <label for="staticEmail2" class="sr-only">House</label>
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="House Number">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="60">
+                      <label for="inputText6" class="sr-only">House</label>
+                      <input type="text" class="form-control border-0" id="inputText6" placeholder="60">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
                   <form class="form-inline">
                     <div class="form-group mb-2">
-                      <label for="staticEmail2" class="sr-only">Country</label>
+                      <label for="staticEmail2" class="sr-only">Zip</label>
                       <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="Zip/Postal Code">
                     </div>
                     <div class="form-group mx-sm-3 mb-2">
-                      <label for="inputPassword2" class="sr-only">Armenia</label>
-                      <input type="password" class="form-control border-0" id="inputPassword2" placeholder="3101">
+                      <label for="inputText7" class="sr-only">Zip</label>
+                      <input type="text" class="form-control border-0" id="inputText7" placeholder="3101">
                     </div>
                     <button type="submit" class="btn btn-outline-success mb-2 border-0">Change</button>
                   </form>
@@ -269,7 +270,7 @@
                               <select class="custom-select mr-sm-2 col-4" id="inlineFormCustomSelect">
                                 <option selected>Month</option>
                                 <option value="1">January</option>
-                                <option value="2">Fabruary</option>
+                                <option value="2">February</option>
                                 <option value="3">March</option>
                               </select>
                          </div>
@@ -278,6 +279,7 @@
                             <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="***">
                           </div>
                       </form>
+                      <a href="#" class="text-decoration-none text-danger">+Add a new payment method</a>
                   </div>
 
 
@@ -349,213 +351,213 @@
   </nav>
 
 
-    <div class="container-fluid">
-        <div class="row text-center bg-white text-uppercase font-weight-bold mt-4">
-            <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">CONTACT US</a> </div>
-            <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">LIVE CHAT</a></div>
-            <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">SHIPPING</a></div>
-            <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action">TERMS & CONDITIONS</a></div>    
+  <div class="container-fluid">
+    <div class="row text-center bg-white text-uppercase font-weight-bold mt-4">
+        <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">CONTACT US</a> </div>
+        <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">LIVE CHAT</a></div>
+        <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action ">SHIPPING</a></div>
+        <div class="col-12 col-md-3 border border-dark border-bottom-0 py-3"> <a href="#" class="list-group-item-action">TERMS & CONDITIONS</a></div>    
+    </div>
+    <div class="row text-center bg-dark border-top">
+        <div class="col d-none d-md-block">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item bg-dark text-light font-weight-bold ">Comfort Bikes</li>
+                <li class="list-group-item bg-dark text-light">Commuting bike</li>
+                <li class="list-group-item bg-dark text-light">Beach cruiser</li>
+                <li class="list-group-item bg-dark text-light">Flat-Foot Comfort Bike</li>
+                <li class="list-group-item bg-dark text-light">All Comfort Bikes</li>
+              </ul>
         </div>
-        <div class="row text-center bg-dark border-top">
-            <div class="col d-none d-md-block">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item bg-dark text-light font-weight-bold ">Link Group</li>
-                    <li class="list-group-item bg-dark text-light">Link1</li>
-                    <li class="list-group-item bg-dark text-light">Link2</li>
-                    <li class="list-group-item bg-dark text-light">Link3</li>
-                    <li class="list-group-item bg-dark text-light">Link4</li>
-                  </ul>
-            </div>
-            <div class="col d-none d-md-block">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item font-weight-bold bg-dark text-light">Link Group</li>
-                    <li class="list-group-item bg-dark text-light">Link1</li>
-                    <li class="list-group-item bg-dark text-light">Link2</li>
-                    <li class="list-group-item bg-dark text-light">Link3</li>
-                    <li class="list-group-item bg-dark text-light">Link4</li>
-                  </ul>
-            </div>
-            <div class="col d-none d-md-block">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item font-weight-bold bg-dark text-light">Link Group</li>
-                    <li class="list-group-item bg-dark text-light">Link1</li>
-                    <li class="list-group-item bg-dark text-light">Link2</li>
-                    <li class="list-group-item bg-dark text-light">Link3</li>
-                    <li class="list-group-item bg-dark text-light">Link4</li>
-                  </ul>
-            </div>
-            <div class="col d-none d-md-block">
-                <ul class="list-group list-group-flush ">
-                    <li class="list-group-item font-weight-bold bg-dark text-light">Link Group</li>
-                    <li class="list-group-item bg-dark text-light">Link1</li>
-                    <li class="list-group-item bg-dark text-light">Link2</li>
-                    <li class="list-group-item bg-dark text-light">Link3</li>
-                    <li class="list-group-item bg-dark text-light">Link4</li>
-                  </ul>
-            </div>
-            <div class="col d-none d-md-block">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item font-weight-bold bg-dark text-light">Link Group</li>
-                    <li class="list-group-item bg-dark text-light">Link1</li>
-                    <li class="list-group-item bg-dark text-light">Link2</li>
-                    <li class="list-group-item bg-dark text-light">Link3</li>
-                    <li class="list-group-item bg-dark text-light">Link4</li>
-                  </ul>
-            </div>
+        <div class="col d-none d-md-block">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item font-weight-bold bg-dark text-light">Road bikes</li>
+                <li class="list-group-item bg-dark text-light">Road bikes</li>
+                <li class="list-group-item bg-dark text-light">Cyclocross Bikes</li>
+                <li class="list-group-item bg-dark text-light">Touring bikes</li>
+                <li class="list-group-item bg-dark text-light">All Road Bikes</li>
+              </ul>
         </div>
-        <div class="row bg-dark border-top py-2">
-            <div class="col-12 col-md-6 text-light text-center text-md-left"> Find us on
-                <a href="#"> <img  class=" mr-2 ml-2" src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" loading="lazy" width="30" height="30"></a>
-                <a href="#"> <img  class=" mr-2 ml-2" src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" loading="lazy" width="30" height="30"></a>
-                <a href="#"> <img  class=" mr-2 ml-2" src="https://www.wan-ifra.org/sites/default/files/imagecache/field_media_image_image_body/field_media_image_file/Twitter_logo_blue.png" loading="lazy" width="30" height="30"></a>
-                <a href="#"> <img  class=" mr-2 ml-2" src="https://cdn.worldvectorlogo.com/logos/youtube-2.svg" loading="lazy" width="50" height="30"></a>
-            </div>
-            <div class="col-12 col-md-6 text-light text-center text-md-right">
-                &#169 Narine Harutyunyan
-            </div>
+        <div class="col d-none d-md-block">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item font-weight-bold bg-dark text-light">Mountain bikes</li>
+                <li class="list-group-item bg-dark text-light">Mountain bikes</li>
+                <li class="list-group-item bg-dark text-light">Hybrid bikes</li>
+                <li class="list-group-item bg-dark text-light">Dual-Sport Bikes</li>
+                <li class="list-group-item bg-dark text-light">All Mountain Bikes</li>
+              </ul>
         </div>
-      </div>
-      
-                                                           
-      <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="col d-none d-md-block">
+            <ul class="list-group list-group-flush ">
+                <li class="list-group-item font-weight-bold bg-dark text-light">For Kids</li>
+                <li class="list-group-item bg-dark text-light">For 1-4 years old</li>
+                <li class="list-group-item bg-dark text-light">For 5-13 years old</li>
+                <li class="list-group-item bg-dark text-light">BMX bikes</li>
+                <li class="list-group-item bg-dark text-light">All Kids Bikes</li>
+              </ul>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="col d-none d-md-block">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item font-weight-bold bg-dark text-light">Accessories</li>
+                <li class="list-group-item bg-dark text-light">Bottles</li>
+                <li class="list-group-item bg-dark text-light">Bike locks</li>
+                <li class="list-group-item bg-dark text-light">Cycling Bags</li>
+                <li class="list-group-item bg-dark text-light">Bike lights</li>
+              </ul>
         </div>
-              <button type="button" class="btn btn-primary">Login</button>
-            </div>
-          </div>
+    </div>
+    <div class="row bg-dark border-top py-2">
+        <div class="col-12 col-md-6 text-light text-center text-md-left"> Find us on
+            <a href="#"> <img  class=" mr-2 ml-2" src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png" loading="lazy" width="30" height="30"></a>
+            <a href="#"> <img  class=" mr-2 ml-2" src="https://www.transparentpng.com/thumb/logo-instagram/YfpFOL-logo-instagram-free-transparent.png" loading="lazy" width="30" height="30"></a>
+            <a href="#"> <img  class=" mr-2 ml-2" src="https://www.wan-ifra.org/sites/default/files/imagecache/field_media_image_image_body/field_media_image_file/Twitter_logo_blue.png" loading="lazy" width="30" height="30"></a>
+            <a href="#"> <img  class=" mr-2 ml-2" src="https://cdn.worldvectorlogo.com/logos/youtube-2.svg" loading="lazy" width="50" height="30"></a>
+        </div>
+        <div class="col-12 col-md-6 text-light text-center text-md-right">
+            &#169 Narine Harutyunyan
+        </div>
+    </div>
+  </div>
+  
+                                                       
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+          <button type="button" class="btn btn-primary">Login</button>
         </div>
       </div>
-                   
-      <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Register</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form class="needs-validation" novalidate>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationCustom01">First name</label>
-            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <label for="validationCustom02">Last name</label>
-            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-          </div>
+    </div>
+  </div>
+               
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        <div class="form-row">
-          <div class="col-md-6 mb-3">
-            <label for="validationCustom03">City</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
-            <div class="invalid-feedback">
-              Please provide a valid city.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom04">State</label>
-            <select class="custom-select" id="validationCustom04" required>
-              <option selected disabled value="">Choose...</option>
-              <option>...</option>
-            </select>
-            <div class="invalid-feedback">
-              Please select a valid state.
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <label for="validationCustom05">Zip</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-            <div class="invalid-feedback">
-              Please provide a valid zip.
-            </div>
-          </div>
+        <div class="modal-body">
+          <form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom01">First name</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+        <div class="valid-feedback">
+          Looks good!
         </div>
-        <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom02">Last name</label>
+        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+        <div class="valid-feedback">
+          Looks good!
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom03">City</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Confirm Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationCustom04">State</label>
+        <select class="custom-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
         </div>
-        
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-            <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
-            </label>
-            <div class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationCustom05">Zip</label>
+        <input type="text" class="form-control" id="validationCustom05" required>
+        <div class="invalid-feedback">
+          Please provide a valid zip.
         </div>
-      </form>
-      
-      <script>
-      // Example starter JavaScript for disabling form submissions if there are invalid fields
-      (function() {
-        'use strict';
-        window.addEventListener('load', function() {
-          // Fetch all the forms we want to apply custom Bootstrap validation styles to
-          var forms = document.getElementsByClassName('needs-validation');
-          // Loop over them and prevent submission
-          var validation = Array.prototype.filter.call(forms, function(form) {
-            form.addEventListener('submit', function(event) {
-              if (form.checkValidity() === false) {
-                event.preventDefault();
-                event.stopPropagation();
-              }
-              form.classList.add('was-validated');
-            }, false);
-          });
+      </div>
+    </div>
+    <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Confirm Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+  </form>
+  
+  <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
         }, false);
-      })();
-      </script>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Sign Up</button>
-            </div>
-          </div>
+      });
+    }, false);
+  })();
+  </script>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Sign Up</button>
         </div>
       </div>
-              
-              
-          <!-- Optional JavaScript -->
-          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-        </body>
-      </html>
+    </div>
+  </div>
+          
+          
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+  </html>
