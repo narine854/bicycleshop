@@ -128,108 +128,106 @@
       </div>
     </div>
 
-<div class="container">
-    <h3 class="font-weight-light text-primary border-bottom py-3">Payment method</h3>
+<div class="container d-flex flex-column align-items-center">
+    <h3 class="font-weight-light text-primary py-3">Payment method</h3>
     <form>
         <fieldset disabled>
             <div class="form-group row">
-                <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Type</label>
+                <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Type</label>
                 <div class="col-12 col-sm-6 col-md-8">
                   <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="Visa">
                 </div>
             </div>
         <div class="form-group row">
-          <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Number</label>
+          <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Number</label>
           <div class="col-12 col-sm-6 col-md-8">
             <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="4355 **** **** 6521">
           </div>
         </div>
         <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Holder Name, Surname</label>
+            <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Holder Name, Surname</label>
             <div class="col-12 col-sm-6 col-md-8">
               <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="Jane Black">
             </div>
         </div>
         <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Expiration Date</label>
-            <div class="col-6 col-sm-4 col-md-1">
+            <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Expiration Date</label>
+            <div class="col-6 col-sm-4 col-md-2">
               <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="06">
             </div>
-            <div class="col-6 col-sm-4 col-md-1">
+            <div class="col-6 col-sm-4 col-md-2">
                 <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="2020">
               </div>
         </div>
           <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">CVV,CVC</label>
+            <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">CVV,CVC</label>
             <div class="col-12 col-sm-6 col-md-8">
               <input type="email" class="form-control border-0 bg-white" id="colFormLabel" placeholder="356">
             </div>
         </div>
         </fieldset>
       </form>
-      <h3 class="font-weight-light text-primary border-bottom py-3">Add new card or change my previous data</h3>
+      <h3 class="font-weight-light text-primary py-3">Add new card or change my previous data</h3>
     <form>
+        
             <div class="form-group row">
-                <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Type</label>
-                <select class="custom-select my-1 mr-sm-2 col-6 col-sm-4 col-md-2 ml-3" id="inlineFormCustomSelectPref">
+                <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Type</label>
+                <div class="col-12 col-sm-6 col-md-8">
+                  <select class="custom-select my-1 mr-sm-2 col-6 col-sm-4 col-md-4 " id="inlineFormCustomSelectPref">
                     <option selected>Choose</option>
                     <option value="1">Visa</option>
                     <option value="2">Master</option>
                     <option value="3">Paypal</option>
                   </select>
+                </div>
             </div>
         <div class="form-group row">
-          <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Number</label>
-          <div class="col-6 col-sm-4 col-md-3">
+          <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Number</label>
+          <div class="col-12 col-sm-6 col-md-8">
             <input type="email" class="form-control border bg-white" id="colFormLabel" placeholder="4355 **** **** 6521">
           </div>
         </div>
         <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Card Holder Name, Surname</label>
-            <div class="col-6 col-sm-4 col-md-3">
+            <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">Card Holder Name, Surname</label>
+            <div class="col-12 col-sm-6 col-md-8">
               <input type="email" class="form-control border bg-white" id="colFormLabel" placeholder="Jane Black">
             </div>
         </div>
         <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">Expiration Date</label>
-            <select class="custom-select my-1 mr-sm-2 ml-3 col-6 col-sm-4 col-md-2" id="inlineFormCustomSelectPref">
-                <option selected>Month</option>
-                <option value="1">01</option>
-                <option value="2">02</option>
-                <option value="3">03</option>
-              </select>
-              <select class="custom-select my-1 ml-3 col-6 col-sm-4 col-md-2" id="inlineFormCustomSelectPref">
-                <option selected>Year</option>
-                <option value="1">2020</option>
-                <option value="2">2021</option>
-                <option value="3">2022</option>
-              </select>
+            <label for="colFormLabel" class="col-12 col-md-4 col-form-label">Expiration Date</label>
+            <div class="col-6 col-sm-4 col-md-3">
+              <input type="email" class="form-control bg-white" id="colFormLabel" placeholder="Month">
+            </div>
+            <div class="col-6 col-sm-4 col-md-3">
+                <input type="email" class="form-control bg-white" id="colFormLabel" placeholder="Year">
+              </div>
         </div>
           <div class="form-group row">
-            <label for="colFormLabel" class="col-12 col-sm-2 col-form-label">CVV,CVC</label>
-            <div class="col-6 col-sm-4 col-md-3">
+            <label for="colFormLabel" class="col-12 col-sm-4 col-form-label">CVV,CVC</label>
+            <div class="col-12 col-sm-6 col-md-8">
               <input type="email" class="form-control border bg-white" id="colFormLabel" placeholder="356">
             </div>
         </div>
+        
       </form>
-      <h3 class="font-weight-light text-primary border-bottom py-3">Add E-wallet account(s)</h3>
-      <div class="row">
-          <div class="col-12 col-sm-6 col-md-2 d-flex flex-column justify-content-center">
+      <h3 class="font-weight-light text-primary py-3">Add E-wallet account(s)</h3>
+      <div class="row d-inline-flex ">
+          <div class="col-12 col-sm-6 col-md-3 d-flex flex-column justify-content-center">
             <a class="" href="https://www.paypal.com/am/home">
                 <img src="https://brookesphysiotherapy.files.wordpress.com/2017/08/paypal-logo-1.png" class="img-fluid">
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-2 d-flex flex-column justify-content-end">
+          <div class="col-12 col-sm-6 col-md-3 d-flex flex-column justify-content-end">
             <a class="" href="https://www.payoneer.com/raf/?rid=C2A5E77D-9F77-4EA2-95CA-490E20E517C6">
                 <img src="https://www.connectwithspanish.com/wp-content/uploads/2020/01/Payoneer-Logo_600x210_high-01.png" class="img-fluid">
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-2 d-flex flex-column justify-content-end">
+          <div class="col-12 col-sm-6 col-md-3 d-flex flex-column justify-content-end">
             <a class="" href="https://telcell.am/hy">
                 <img src="https://lh3.googleusercontent.com/c-uUiCC-TxHqjs4a88A-LT_jBI2V5snE9WeGSj0Ph6DhwsLP1Osrg0KDMEZSp3UsDv69" class="img-fluid">
             </a>
           </div>
-          <div class="col-12 col-sm-6 col-md-2 d-flex flex-column justify-content-center">
+          <div class="col-12 col-sm-6 col-md-3 d-flex flex-column justify-content-center">
             <a class="" href="https://mobidram.mts.am/en/E-Wallet">
                 <img src="https://www.rtarmenia.am/images/MobiDram.png" class="img-fluid">
             </a>
